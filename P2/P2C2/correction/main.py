@@ -31,7 +31,7 @@ print("Moyenne des nombres:", moyenne)
 
 # Trouver combien de nombres de la liste sont supérieurs à la moyenne
 nombre_au_dessus_moyenne = 0
-for nombre in liste:
+for nombre in liste_entiers:
     if nombre > moyenne:
         nombre_au_dessus_moyenne += 1
 print("Nombre de nombres supérieurs à la moyenne:", nombre_au_dessus_moyenne)
